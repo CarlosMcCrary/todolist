@@ -39,9 +39,9 @@
   </div>
     <script>
     $(document).ready(function(){
-      $("#add").click(function() {
+      $("#add").click(function(){
         var $task = $("input[name=todoinput]").val();
-          $(".addhere").append("<p class='task' style='color:red'>" + $task) + "</p>";
+          $(".addhere").append("<p class='task' style='color:red'>" + $task + "</p>");
 
 });
     $(document).on("click", ".task", function(){
